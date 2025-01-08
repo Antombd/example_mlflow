@@ -11,7 +11,7 @@ from sklearn import metrics
 import mlflow
 import os
 
-mlflow.set_tracking_uri("http://localhost:5000")
+# mlflow.set_tracking_uri("http://localhost:5000")
 
 # load the dataset
 dataset = pd.read_csv("train.csv")
